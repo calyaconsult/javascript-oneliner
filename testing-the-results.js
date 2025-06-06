@@ -1,3 +1,4 @@
+/* Der Code lässt sich zum Beispiel auf https://playcode.io/javascript ausführen */
 /* Code Variante 1: X-preview */
 const fF0 = (a,b) => `ChatGPT 0: ${a < 10 ? '0' : ''}${a}-${b < 10 ? '0' : ''}${b}`;
 const fF1 = (a,b) => `ChatGPT 1: ${`${a}`.padStart(2, '0')}-${`${b}`.padStart(2, '0')}`;
