@@ -48,7 +48,8 @@ Or all in one template literal:
 `${`${m}`.padStart(2, '0')}-${`${d}`.padStart(2, '0')}`
 ```
 
-### gemma-3-27b-it: ```javascript
+### Same Prompt, reply by gemma-3-27b-it: 
+```javascript
 (m, d) => `${m < 10 ? '0' : ''}${m}-${d < 0 ? '0' : ''}${d}`
 ```
 
