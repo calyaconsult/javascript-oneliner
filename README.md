@@ -1,10 +1,10 @@
 # Projektbeschreibung
 
-Dieses Projekt dient zur Demonstration der Erstellung und des Testens einer Javascript-Funktion durch einen KI-Assistenten.
+Dieses Projekt dient zur Demonstration der Erstellung und des Testens einer Javascript-Funktion durch KI-Assistenten.
 
 ## Inhalt
 
-Die Datei `the-prompt.md` stellt den ursprünglichen Prompt and die Antwort seiten ChatGPT vor.
+Die Datei `the-prompt.md` stellt den ursprünglichen Prompt und die Antwort seitens ChatGPT vor.
 
 Die Datei `second-prompt.md` ergänzt den ersten Prompt durch entsprechende Prompts bei verschiedenen LLMs.
 
