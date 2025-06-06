@@ -5,8 +5,9 @@ const fF1 = (a,b) => `ChatGPT 1: ${`${a}`.padStart(2, '0')}-${`${b}`.padStart(2,
 const fF2 = (a,b) => `ChatGPT 2: ${a}`.padStart(2, '0') + '-' + `${b}`.padStart(2, '0');
 const fF3 = (a,b) => `ChatGPT 3: ${a < 10 ? '0' : ''}${a}-${b < 10 && b >= 0 ? '0' : ''}${b}`;
 const fF4 = (a,b) => `Gemma:   ${a < 10 ? '0' : ''}${a}-${b < 0 ? '0' : ''}${b}`;
+const fF5 = (a,b) => `Claude:  ${a < 10 ? '0' : ''}${a}-${b < 10 ? '0' : ''}${b}`;
 
-const dateFormatters = [fF0, fF1, fF2, fF3, fF4]; // More descriptive name
+const dateFormatters = [fF0, fF1, fF2, fF3, fF4, fF5]; // More descriptive name
 
 function formatDate(month, day, dateFormatter) {
   // Enhanced validation with more informative error messages
