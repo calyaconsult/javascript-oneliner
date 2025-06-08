@@ -26,7 +26,8 @@ const testCases = [
   { month: 1,  day: 6 },   // Single-digit month and day
   { month: 1,  day: 16 },  // Single-digit month, double-digit day
   { month: 10, day: 6 },   // Double-digit month, single-digit day
-  { month: 10, day: 16 }  // Double-digit month and day
+  { month: 10, day: 16 },  // Double-digit month and day
+  { month: (new Date).getMonth()+1, day: (new Date).getDate()} // Dynamically updated values
 ];
 
 // Execute tests with proper error handling
