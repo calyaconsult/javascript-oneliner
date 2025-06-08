@@ -78,9 +78,10 @@ function formatDate(m, d, formatter) {
   return formatter(m, d);
 }
 
+// Test cases
 // Define the months and days to iterate over.
-const months = [1, 10];
-const days = [6, 16];
+const months = [1, 10, (new Date).getMonth()+1];
+const days = [6, 16, (new Date).getDate()];
 
 months.forEach(month => {
   days.forEach(day => {
